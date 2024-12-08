@@ -6,6 +6,7 @@ using Unicam.Paradigmi.Application.Middlewares; // Per i middleware personalizza
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 // **Logging**
 // Configura il servizio di logging per catturare e registrare gli eventi dell'applicazione
 builder.Services.AddLogging();
